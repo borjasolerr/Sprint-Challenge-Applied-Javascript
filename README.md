@@ -50,6 +50,8 @@ Listeners, or Handlers, are 'functions' that are invoked in response to Events. 
 
 4. Why would we convert a NodeList into an Array?
 
+Because NodeLists are array-like but don't feature many of the methods provided by the Array, like forEach, map, filter, etc.
+
 5. What is a component?
 
 Is a JS abstraction that allow us, as developers, to code reusable chunks of code.
